@@ -1,0 +1,11 @@
+<template>
+    <template for:each={conDetails} for:item="con">
+        <div   key={con.name}>
+            <!-- <img src={con.imageUrl} alt={con.name} style="width:100%"> -->
+            <h1>{con.name}</h1>
+            <p  >{con.title}</p>
+            <p>{con.company}</p>
+           
+        </div>
+    </template>
+</template>
